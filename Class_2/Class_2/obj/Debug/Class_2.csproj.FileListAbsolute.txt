@@ -19,3 +19,4 @@ E:\bitm\BitmProjectsWithGit\Bitm\Class_2\Class_2\obj\Debug\Class_2.csproj.Genera
 E:\bitm\BitmProjectsWithGit\Bitm\Class_2\Class_2\obj\Debug\Class_2.csproj.CoreCompileInputs.cache
 E:\bitm\BitmProjectsWithGit\Bitm\Class_2\Class_2\obj\Debug\Class_2.exe
 E:\bitm\BitmProjectsWithGit\Bitm\Class_2\Class_2\obj\Debug\Class_2.pdb
+E:\bitm\BitmProjectsWithGit\Bitm\Class_2\Class_2\obj\Debug\Class_2.Comboboxtest.resources
