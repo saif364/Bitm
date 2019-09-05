@@ -36,11 +36,14 @@
             this.txtNumberoftickets = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtCustomerName = new System.Windows.Forms.MaskedTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cmbTicketType = new System.Windows.Forms.ComboBox();
+            this.btnShow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDetails
             // 
-            this.btnDetails.Location = new System.Drawing.Point(300, 273);
+            this.btnDetails.Location = new System.Drawing.Point(156, 261);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(75, 23);
             this.btnDetails.TabIndex = 0;
@@ -49,7 +52,7 @@
             // 
             // btntoal
             // 
-            this.btntoal.Location = new System.Drawing.Point(155, 273);
+            this.btntoal.Location = new System.Drawing.Point(57, 261);
             this.btntoal.Name = "btntoal";
             this.btntoal.Size = new System.Drawing.Size(75, 23);
             this.btntoal.TabIndex = 0;
@@ -107,11 +110,40 @@
             this.txtCustomerName.TabIndex = 2;
             this.txtCustomerName.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(92, 221);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Ticket type";
+            // 
+            // cmbTicketType
+            // 
+            this.cmbTicketType.FormattingEnabled = true;
+            this.cmbTicketType.Location = new System.Drawing.Point(208, 221);
+            this.cmbTicketType.Name = "cmbTicketType";
+            this.cmbTicketType.Size = new System.Drawing.Size(121, 21);
+            this.cmbTicketType.TabIndex = 4;
+            // 
+            // btnShow
+            // 
+            this.btnShow.Location = new System.Drawing.Point(254, 261);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(75, 23);
+            this.btnShow.TabIndex = 0;
+            this.btnShow.Text = "Show ";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
+            // 
             // PurchaseTicket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 488);
+            this.ClientSize = new System.Drawing.Size(911, 585);
+            this.Controls.Add(this.cmbTicketType);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtNumberoftickets);
             this.Controls.Add(this.txtCustomerName);
             this.Controls.Add(this.txtunitPrice);
@@ -119,6 +151,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btntoal);
+            this.Controls.Add(this.btnShow);
             this.Controls.Add(this.btnDetails);
             this.Name = "PurchaseTicket";
             this.Text = "PurchaseTicket";
@@ -138,6 +171,9 @@
         private System.Windows.Forms.MaskedTextBox txtNumberoftickets;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MaskedTextBox txtCustomerName;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox cmbTicketType;
+        private System.Windows.Forms.Button btnShow;
     }
 }
 

@@ -55,5 +55,10 @@ namespace Class_2
         {
 
         }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
