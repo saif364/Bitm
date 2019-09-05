@@ -1,0 +1,10 @@
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\bin\Debug\Class_2.exe.config
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\bin\Debug\Class_2.exe
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\bin\Debug\Class_2.pdb
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\obj\Debug\Class_2.csprojResolveAssemblyReference.cache
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\obj\Debug\Class_2.PurchaseTicket.resources
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\obj\Debug\Class_2.Properties.Resources.resources
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\obj\Debug\Class_2.csproj.GenerateResource.Cache
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\obj\Debug\Class_2.csproj.CoreCompileInputs.cache
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\obj\Debug\Class_2.exe
+E:\bitm\BitmProjectsWithGit\BitmProjects\Class_2\Class_2\obj\Debug\Class_2.pdb
